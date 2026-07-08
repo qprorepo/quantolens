@@ -85,7 +85,3 @@ This section exists because the manuscript itself is candid about it in the appe
 - The learning-curve figure is fit on only 48 samples, with training accuracy pinned at 1.0 (overfitting), so the ~89% validation figure quoted there shouldn't be read as a stable, generalizable number.
 
 None of this means the theoretical contributions aren't sound — the operator derivations and proofs are a separate matter from the empirical section. But before this goes out for review, it's worth reconciling the abstract/conclusion's framing with what the appendix actually supports, so reviewers don't find the gap for you. The cleanest fix is usually to either (a) qualify the headline numbers as simulation-based projections rather than measured results, or (b) re-run the pipeline against real audio so the numbers in the abstract match what the appendix demonstrates.
-
-## License
-
-TODO — add a license (e.g., `LICENSE` file) appropriate for your intended use. Note that Common Voice (CC0) and MASSIVE have their own licenses independent of whatever you choose for the manuscript source and code in this repo.
